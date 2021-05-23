@@ -7,7 +7,7 @@ import { User } from '../user'
   selector: 'app-github',
   templateUrl: './github.component.html',
   styleUrls: ['./github.component.css']
-/*
+
 })
 export class GithubComponent implements OnInit {
   user!:User;
@@ -19,7 +19,7 @@ export class GithubComponent implements OnInit {
     this.githubRequestService = githubRequestService;
 
   }
-
+/*
   ngOnInit(): void {
     this.repoInfo= this.githubRequestService.repoData;
   }
