@@ -37,8 +37,8 @@ export class GithubRequestService {
         this.user.avatar_url = response.avatar_url
 
         resolve()
-      },/*
-      error=>{
+      },
+        error=>{
         reject(error)
       }
       )
