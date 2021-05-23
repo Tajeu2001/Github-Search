@@ -19,7 +19,6 @@ export class GithubComponent implements OnInit {
     this.githubRequestService = githubRequestService;
 
   }
-/*
   ngOnInit(): void {
     this.repoInfo= this.githubRequestService.repoData;
   }
