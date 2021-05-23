@@ -6,10 +6,10 @@ import { User } from '../user';
   selector: 'app-github-form',
   templateUrl: './github-form.component.html',
   styleUrls: ['./github-form.component.css']
-})/*
+})
 export class GithubFormComponent implements OnInit {
   username!:string;
-  user!:User;
+  user!:User;/*
   githubRequestService!:GithubRequestService
   
 
