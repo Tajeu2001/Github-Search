@@ -16,7 +16,7 @@ export class GithubFormComponent implements OnInit {
   submitUsername(){
     this.githubRequestService.getUser(this.username);
   }
-/*
+
   constructor(githubRequestService: GithubRequestService) { 
     this.githubRequestService = githubRequestService;
 
