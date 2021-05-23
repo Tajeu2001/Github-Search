@@ -10,7 +10,7 @@ import { User } from '../user'
   styleUrls: ['./github-result.component.css']
 })
 export class GithubResultComponent implements OnInit {
-/*
+
   user!: User;
   repoInfo=[]
   githubRequestService!: GithubRequestService;
