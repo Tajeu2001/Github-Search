@@ -9,10 +9,10 @@ import { User } from '../user';
 })
 export class GithubFormComponent implements OnInit {
   username!:string;
-  user!:User;/*
+  user!:User;
   githubRequestService!:GithubRequestService
   
-
+/*
   submitUsername(){
     this.githubRequestService.getUser(this.username);
   }
