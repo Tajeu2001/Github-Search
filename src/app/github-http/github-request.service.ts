@@ -9,7 +9,7 @@ import { Repository } from '../repository';
   providedIn: 'root'
 })
 export class GithubRequestService {
-/*
+
   user!:User;
   repository!:Repository;
   repoData:any = [];
@@ -20,7 +20,7 @@ export class GithubRequestService {
     this.user = new User ("", 0,"","");
     this.repository = new Repository("","","","") 
   }
-
+/*
 
   getUser(username:string){
     interface ApiResponse{
