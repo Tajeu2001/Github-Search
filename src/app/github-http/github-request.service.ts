@@ -28,7 +28,7 @@ export class GithubRequestService {
       public_repos:number, 
       login:string,
       avatar_url:string }
-    /*
+    
     let promise = new Promise<void>((resolve,reject)=>{
         this.http.get<ApiResponse>("https://api.github.com/users/"+ username).toPromise().then(response=>{
         this.user.bio = response.bio
@@ -37,7 +37,7 @@ export class GithubRequestService {
         this.user.avatar_url = response.avatar_url
 
         resolve()
-      },
+      },/*
       error=>{
         reject(error)
       }
