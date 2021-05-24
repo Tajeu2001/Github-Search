@@ -12,7 +12,7 @@ import { User } from '../user'
 export class GithubResultComponent implements OnInit {
 
   user!: User;
-  repoInfo=[]
+  repoInfo:any=[]
   githubRequestService!: GithubRequestService;
 
   constructor(githubRequestService: GithubRequestService) { 

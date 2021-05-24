@@ -1,18 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;900&family=Stint+Ultra+Condensed&display=swap');
+
 .container {
   margin-top: 50px;
   background-color: #264653;
   color: #e9c46c;
-  width: 40%;
   padding: 40px;
-  border-radius: 40%;
+
   
 }
 
 p ,img{
   margin-left: 150px;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 25px;
 }
 
 img {
   border-radius:50% ;
   width:200px;
+}
+
+h3,h4 {
+  margin-left: 150px;
+  text-decoration: underline;
+  color: rgb(238, 69, 97) ;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 40px;
 }
