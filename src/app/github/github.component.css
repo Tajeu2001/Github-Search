@@ -8,7 +8,7 @@ img {
   margin-left:40px;
 }
 
-p {/*
+p {
   font-family: 'Stint Ultra Condensed', cursive;
   font-size: 30px; 
 }
@@ -28,7 +28,7 @@ h4{
   margin-top: 80px;
   margin-left: 150px;
   border-radius: 20%;
-}
+}/*
 
 .repos {
   background-color: #f4a261;
